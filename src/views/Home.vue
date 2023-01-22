@@ -17,12 +17,12 @@
           </p>
         </div>
         <div class="col-4">
-          <q-img src="../assets/learn_java.png" height="80%" />
+          <q-img src="../assets/1974.jpg" height="80%" />
         </div>
       </div>
       <div class="row q-ma-lg q-gutter-x-xl justify-center">
         <div class="col-4">
-          <q-img src="../assets/code_snippets.png" height="80%" />
+          <q-img src="../assets/aleppocas.jpg" height="80%" />
         </div>
         <div class="col-4">
           <p class="text-h3">Unsere Werte, unser Ziel.</p>

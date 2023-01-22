@@ -5,7 +5,7 @@
         <smart-view-btn
           text-color="white"
           dense
-          label="Smart View"
+          label="Aleppo city"
           color="primary"
           @click="navigate('Home')"
         ></smart-view-btn>
@@ -13,9 +13,9 @@
         <smart-view-btn
           text-color="white"
           dense
-          label="Kurse"
+          label="Gallery"
           color="primary"
-          @click="navigate('Courses')"
+          @click="navigate('Gallery')"
         ></smart-view-btn>
         <smart-view-btn
           text-color="white"

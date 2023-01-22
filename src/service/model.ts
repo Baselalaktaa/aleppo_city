@@ -30,4 +30,9 @@ export const allSlideImageItems: SlideImageItem[] = [
     slideName: "fifth_slide",
     text: "lorem ipsum sadasdäasfälaf",
   },
+  {
+    imageName: "aleppocas.jpg",
+    slideName: "sixth_slide",
+    text: "lorem ipsum sadasdäasfälaf",
+  },
 ];
