@@ -20,9 +20,9 @@
         <smart-view-btn
           text-color="white"
           dense
-          label="Contact us"
+          label="About us"
           color="primary"
-          @click="navigate('ContactUs')"
+          @click="navigate('Aboutus')"
         ></smart-view-btn>
       </q-toolbar>
     </q-header>

@@ -6,17 +6,17 @@ export interface SlideImageItem {
 
 export const allSlideImageItems: SlideImageItem[] = [
   {
-    imageName: "aleppo_castle.jpg",
+    imageName: "13 September 1920.jpg",
     slideName: "first_slide",
     text: "lorem ipsum sadasdäasfälaf",
   },
   {
-    imageName: "code_snippets.png",
+    imageName: "1922.jpg",
     slideName: "second_slide",
     text: "lorem ipsum sadasdäasfälaf",
   },
   {
-    imageName: "learn_java.png",
+    imageName: "1974.jpg",
     slideName: "third_slide",
     text: "lorem ipsum sadasdäasfälaf",
   },
@@ -26,7 +26,7 @@ export const allSlideImageItems: SlideImageItem[] = [
     text: "lorem ipsum sadasdäasfälaf",
   },
   {
-    imageName: "learn_java.png",
+    imageName: "Citadel_of_Aleppo 2010.jpg",
     slideName: "fifth_slide",
     text: "lorem ipsum sadasdäasfälaf",
   },
