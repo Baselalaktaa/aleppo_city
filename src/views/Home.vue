@@ -5,57 +5,47 @@
         <div class="col-4">
           <p class="text-h2">Aleppo.</p>
           <p class="text-body1">
-            Aleppo is a city in Syria, which serves as the capital of the Aleppo Governorate, the most populous Governorate of Syria.
-            With an estimated population of 2,098,000 residents as of 2021, it is Syria's second-largest city and also one of the largest cities in the Levant region.
+            Aleppo is a city in Syria, which serves as the capital of the Aleppo
+            Governorate, the most populous Governorate of Syria. With an
+            estimated population of 2,098,000 residents as of 2021, it is
+            Syria's second-largest city and also one of the largest cities in
+            the Levant region.
             <br />
-            Aleppo is one of the oldest continuously inhabited cities in the world; Such a long history is attributed to its strategic location as a trading center between the Mediterranean Sea and Mesopotamia.
+            Aleppo is one of the oldest continuously inhabited cities in the
+            world; Such a long history is attributed to its strategic location
+            as a trading center between the Mediterranean Sea and Mesopotamia.
             <br />
-            For centuries, Aleppo was the largest city in the Syrian region.
-            The city's significance in history has been its location at one end of the Silk Road, which passed through Central Asia and Mesopotamia.
-            It won the title of the Islamic Capital of Culture 2006.
+            For centuries, Aleppo was the largest city in the Syrian region. The
+            city's significance in history has been its location at one end of
+            the Silk Road, which passed through Central Asia and Mesopotamia. It
+            won the title of the Islamic Capital of Culture 2006.
           </p>
         </div>
         <div class="col-4">
-          <q-img src="../assets/aleppoone.png" height="80%" />
+          <q-img src="../assets/aleppoone.png" height="100%" />
         </div>
       </div>
       <div class="row q-ma-lg q-gutter-x-xl justify-center">
         <div class="col-4">
-          <q-img src="../assets/aleppocas.jpg" height="80%" />
+          <q-img src="../assets/aleppocas.jpg" height="100%" />
         </div>
         <div class="col-4">
-          <p class="text-h3">Citadel of Aleppo.</p>
+          <p class="text-h2">Citadel of Aleppo.</p>
           <p class="text-body1">
-            The Citadel of Aleppo is a large medieval fortified palace in the centre of the old city of Aleppo, northern Syria.
-            It is considered to be one of the oldest and largest castles in the world.
+            The Citadel of Aleppo is a large medieval fortified palace in the
+            centre of the old city of Aleppo, northern Syria. It is considered
+            to be one of the oldest and largest castles in the world.
             <br />
-            Usage of the Citadel hill dates back at least to the middle of the 3rd millennium BC.
-            Occupied by many civilizations over time – including the Armenians, Greeks, Byzantines, Ayyubids, Mamluks and Ottomans  – the majority of the construction as it stands today is thought to originate from the Ayyubid period.
+            Usage of the Citadel hill dates back at least to the middle of the
+            3rd millennium BC. Occupied by many civilizations over time –
+            including the Armenians, Greeks, Byzantines, Ayyubids, Mamluks and
+            Ottomans – the majority of the construction as it stands today is
+            thought to originate from the Ayyubid period.
             <br />
-            An extensive conservation work took place in the 2000s by the Aga Khan Trust for Culture, in collaboration with Aleppo Archeological Society.
-            Dominating the city, the Citadel is part of the Ancient City of Aleppo, an UNESCO World Heritage Site since 1986.
-            <!--            -->
-            <q-btn class="q-pa-xs" flat no-caps>
-              <span
-                @click="goToCourses()"
-                class="text-body1 text-deep-orange-13"
-              >
-                Kurse
-              </span>
-            </q-btn>
-            kannst du dich für angebotenen Themen an den geplanten Terminen
-            anmleden.
-            <br />
-            Bei Fragen fühl dich bitte frei unser
-            <q-btn class="q-pa-xs" flat no-caps>
-              <span
-                @click="goToContact()"
-                class="text-body1 text-deep-orange-13"
-              >
-                Contact-Formular
-              </span>
-            </q-btn>
-            zu verwenden.
+            An extensive conservation work took place in the 2000s by the Aga
+            Khan Trust for Culture, in collaboration with Aleppo Archeological
+            Society. Dominating the city, the Citadel is part of the Ancient
+            City of Aleppo, an UNESCO World Heritage Site since 1986.
           </p>
         </div>
       </div>

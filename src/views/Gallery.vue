@@ -1,9 +1,10 @@
 <template>
-  <q-page class="q-mx-auto">
+  <q-page class="q-mx-auto my-page">
     <SlidePhotoGallery
       class="my-gallery-card"
       computed-image-path-to-display="aleppo_castle.jpg"
       :slideImageItems="allSlideItems"
+
     />
   </q-page>
 </template>
@@ -22,7 +23,12 @@ const lorem = ref<string>(
 
 <style scoped lang="css">
 .my-gallery-card {
+  min-height: 100%
+}
+
+.my-page {
   width: 100%;
-  height: 873px;
+  height: 80vh;
+
 }
 </style>

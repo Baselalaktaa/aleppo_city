@@ -22,10 +22,32 @@
           dense
           label="About us"
           color="primary"
-          @click="navigate('Aboutus')"
+          @click="navigate('ContactUs')"
         ></smart-view-btn>
       </q-toolbar>
     </q-header>
+    <q-footer reveal elevated class="bg-secondary">
+      <q-toolbar reveal elevated class="bg-secondary">
+        <span class="text-body2"> Abdulkader Alaref </span>
+        <q-space />
+        <q-btn
+          rounded
+          flat
+          dense
+          no-caps
+          icon="img:facebook.svg"
+          @click="gotToFacebook"
+        />
+        <q-btn
+          rounded
+          flat
+          dense
+          no-caps
+          icon="img:instagram.svg"
+          @click="goToInsta"
+        />
+      </q-toolbar>
+    </q-footer>
     <q-page-container>
       <router-view></router-view>
     </q-page-container>
@@ -43,5 +65,12 @@ const navigate = (name: string) => {
     name: name,
   });
 };
+
+function gotToFacebook() {
+  window.open("https://www.facebook.com/abdalkader.alaref");
+}
+function goToInsta() {
+  window.open("https://www.instagram.com/abdulkader.m.alaref/");
+}
 </script>
 <style lang="css"></style>
