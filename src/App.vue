@@ -26,9 +26,9 @@
         ></smart-view-btn>
       </q-toolbar>
     </q-header>
-    <q-footer reveal elevated class="bg-secondary">
-      <q-toolbar reveal elevated class="bg-secondary">
-        <span class="text-body2"> Abdulkader Alaref </span>
+    <q-footer reveal elevated class="bg-accent">
+      <q-toolbar reveal elevated >
+        <span class="text-body2 text-black"> Abdulkader Alaref </span>
         <q-space />
         <q-btn
           rounded

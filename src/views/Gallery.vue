@@ -28,7 +28,7 @@ const lorem = ref<string>(
 
 .my-page {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 
 }
 </style>

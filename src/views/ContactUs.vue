@@ -8,7 +8,7 @@
         <q-card class="my-video-card shadow-10">
           <q-video
             style="height: 100%"
-            src="https://www.youtube.com/embed/xPKcqRFajU4"
+            src="https://www.youtube.com/embed/w9IGyFxLX5Y"
           />
         </q-card>
       </div>
@@ -21,6 +21,6 @@
 <style scoped>
 .my-video-card {
   width: 100%;
-  height: 60vh;
+  height: 80vh;
 }
 </style>

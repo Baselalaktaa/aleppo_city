@@ -7,7 +7,7 @@ export interface SlideImageItem {
 
 export const allSlideImageItems: SlideImageItem[] = [
   {
-    imageName: "13 September 1920.jpg",
+    imageName: "Untitled-1.jpg",
     slideName: "first_slide",
   },
   {
@@ -35,7 +35,7 @@ export const allSlideImageItems: SlideImageItem[] = [
     slideName: "seventh_slide",
   },
   {
-    imageName: "1 (4).jpg",
+    imageName: "Untitled-2.jpg",
     slideName: "eighth_slide",
   },
   {
