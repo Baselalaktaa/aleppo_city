@@ -20,14 +20,14 @@
         <smart-view-btn
           text-color="white"
           dense
-          label="About us"
+          label="Video gallery"
           color="primary"
-          @click="navigate('ContactUs')"
+          @click="navigate('video-gallery')"
         ></smart-view-btn>
       </q-toolbar>
     </q-header>
     <q-footer reveal elevated class="bg-accent">
-      <q-toolbar reveal elevated >
+      <q-toolbar reveal elevated>
         <span class="text-body2 text-black"> Abdulkader Alaref </span>
         <q-space />
         <q-btn

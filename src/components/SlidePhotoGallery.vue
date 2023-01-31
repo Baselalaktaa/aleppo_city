@@ -5,13 +5,11 @@
     transition-next="fade"
     swipeable
     animated
-    control-color="black"
-    control-type="regular"
-    navigation-icon="radio_button_unchecked"
-    navigation
     padding
     arrows
+    thumbnails
     class="bg-blue-1 text-white shadow-1 rounded-borders"
+    :fullscreen="triggerFullscreen"
   >
     <q-carousel-slide
       v-for="item in computedSlideImageItems"
@@ -20,7 +18,19 @@
       :name="item.slideName"
       class="column no-wrap flex-center"
     >
-      <div class="q-mt-md text-center">
+      <div class="absolute-top-right">
+        <q-btn
+          rounded
+          flat
+          dense
+          no-caps
+          icon="fullscreen"
+          @click="triggerFullscreenFun"
+        >
+          <q-tooltip> Fullscreen </q-tooltip>
+        </q-btn>
+      </div>
+      <div v-if="triggerFullscreen" class="q-mt-md text-center">
         {{ item.text }}
       </div>
     </q-carousel-slide>
@@ -35,6 +45,12 @@ const props = defineProps<{
   computedImagePathToDisplay: string;
   slideImageItems: SlideImageItem[];
 }>();
+
+const triggerFullscreen = ref<boolean>(false);
+
+function triggerFullscreenFun() {
+  triggerFullscreen.value = !triggerFullscreen.value;
+}
 
 const computedSlideImageItems = computed(() => props.slideImageItems ?? []);
 

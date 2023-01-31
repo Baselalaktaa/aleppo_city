@@ -4,7 +4,6 @@
       class="my-gallery-card"
       computed-image-path-to-display="aleppo_castle.jpg"
       :slideImageItems="allSlideItems"
-
     />
   </q-page>
 </template>
@@ -16,19 +15,15 @@ import { allSlideImageItems, SlideImageItem } from "@/service/model";
 
 const allSlideItems: Ref<SlideImageItem[]> = ref(allSlideImageItems);
 
-const lorem = ref<string>(
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-);
 </script>
 
 <style scoped lang="css">
 .my-gallery-card {
-  min-height: 100%
+  min-height: 100%;
 }
 
 .my-page {
   width: 100%;
   height: 100vh;
-
 }
 </style>

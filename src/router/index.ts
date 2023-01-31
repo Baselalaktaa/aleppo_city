@@ -23,8 +23,8 @@ const routes: Array<RouteRecordRaw> = [
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   {
-    path: "/contact-us",
-    name: "ContactUs",
+    path: "/video-gallery",
+    name: "video-gallery",
     component: () => import("../views/ContactUs.vue"),
   },
 ];
