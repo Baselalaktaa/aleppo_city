@@ -1,6 +1,7 @@
 <template>
   <q-btn
     :label="label"
+    :icon ="icon"
     :dense="dense"
     :color="color"
     :text-color="textColor"
@@ -23,8 +24,9 @@ import { defineProps } from "vue";
  * type safe props declaration
  */
 const props = defineProps<{
-  label: string;
+  label?: string;
   dense: boolean;
+  icon?: string;
   color: string;
   textColor?: string;
 }>();

@@ -24,6 +24,6 @@ const allSlideItems: Ref<SlideImageItem[]> = ref(allSlideImageItems);
 
 .my-page {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
 }
 </style>

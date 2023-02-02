@@ -5,7 +5,7 @@
         <smart-view-btn
           text-color="white"
           dense
-          label="Aleppo city"
+          icon="img:Aleppo-logo.png"
           color="primary"
           @click="navigate('Home')"
         ></smart-view-btn>

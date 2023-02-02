@@ -7,43 +7,44 @@ export interface SlideImageItem {
 
 export const allSlideImageItems: SlideImageItem[] = [
   {
-    imageName: "Untitled-1.jpg",
+    imageName: "Overview.jpg",
     slideName: "first_slide",
-  },
-  {
-    imageName: "1922.jpg",
-    slideName: "second_slide",
-  },
-  {
-    imageName: "1974.jpg",
-    slideName: "third_slide",
+    text:""
   },
   {
     imageName: "Citadel_of_Aleppo 2010.jpg",
-    slideName: "forth_slide",
+    slideName: "second_slide",
   },
   {
-    imageName: "aleppo_castle.jpg",
-    slideName: "fifth_slide",
-  },
-  {
-    imageName: "1 (5).jpg",
-    slideName: "sixth_slide",
+    imageName: "Aleppo_Grand_Seray.jpg",
+    slideName: "third_slide",
   },
   {
     imageName: "1 (7).jpg",
+    slideName: "forth_slide",
+  },
+  {
+    imageName: "Villa Rose 1928.jpg",
+    slideName: "fifth_slide",
+  },
+  {
+    imageName: "Church_of_Saint_Simeon_Stylites_5th century1.jpg",
+    slideName: "sixth_slide",
+  },
+  {
+    imageName: "Alrahman Mosque1.jpg",
     slideName: "seventh_slide",
   },
   {
-    imageName: "Untitled-2.jpg",
+    imageName: "franciscan.jpg",
     slideName: "eighth_slide",
   },
   {
-    imageName: "1(20).jpg",
+    imageName: "AlFaraj Gate2.jpg",
     slideName: "ninth_slide",
   },
   {
-    imageName: "St George's Church and Tawhid Mosque.jpg",
+    imageName: "Saint_Elias_Maronite_Cathedral,_Aleppo2.jpg",
     slideName: "tenth_slide",
   },
 ];
