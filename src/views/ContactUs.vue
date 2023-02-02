@@ -13,19 +13,19 @@
     <q-carousel-slide name="1" class="column no-wrap flex-center">
       <q-video
         class="absolute-full"
-        src= "https://www.youtube.com/embed/xPKcqRFajU4"
+        src="https://www.youtube.com/embed/xPKcqRFajU4"
       />
     </q-carousel-slide>
     <q-carousel-slide name="2" class="column no-wrap flex-center">
       <q-video
         class="absolute-full"
-        src= "https://www.youtube.com/embed/w9IGyFxLX5Y"
+        src="https://www.youtube.com/embed/w9IGyFxLX5Y"
       />
     </q-carousel-slide>
     <q-carousel-slide name="3" class="column no-wrap flex-center">
       <q-video
         class="absolute-full"
-        src= "https://www.youtube.com/embed/g5XFzv5PkRY"
+        src="https://www.youtube.com/embed/g5XFzv5PkRY"
       />
     </q-carousel-slide>
   </q-carousel>

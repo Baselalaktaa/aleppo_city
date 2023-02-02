@@ -9,7 +9,7 @@ export const allSlideImageItems: SlideImageItem[] = [
   {
     imageName: "Overview.jpg",
     slideName: "first_slide",
-    text:""
+    text: "Abdulkarersdngnhjsdlfgmkydfm,#äödfgnädilöfghsdfäm",
   },
   {
     imageName: "Citadel_of_Aleppo 2010.jpg",

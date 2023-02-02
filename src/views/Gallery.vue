@@ -14,7 +14,6 @@ import SlidePhotoGallery from "@/components/SlidePhotoGallery.vue";
 import { allSlideImageItems, SlideImageItem } from "@/service/model";
 
 const allSlideItems: Ref<SlideImageItem[]> = ref(allSlideImageItems);
-
 </script>
 
 <style scoped lang="css">

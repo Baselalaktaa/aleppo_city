@@ -1,7 +1,7 @@
 <template>
   <q-btn
     :label="label"
-    :icon ="icon"
+    :icon="icon"
     :dense="dense"
     :color="color"
     :text-color="textColor"

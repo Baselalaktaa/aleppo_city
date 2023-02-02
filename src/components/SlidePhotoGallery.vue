@@ -18,7 +18,17 @@
       :name="item.slideName"
       class="column no-wrap flex-center"
     >
-      <div class="absolute-top-right">
+      <div class="row q-gutter-xl-md absolute-top-right">
+        <q-btn
+          rounded
+          flat
+          dense
+          no-caps
+          icon="info"
+          @click="showInfo(item.text)"
+        >
+          <q-tooltip> Show image info </q-tooltip>
+        </q-btn>
         <q-btn
           rounded
           flat
@@ -27,11 +37,8 @@
           icon="fullscreen"
           @click="triggerFullscreenFun"
         >
-          <q-tooltip> Fullscreen </q-tooltip>
+          <q-tooltip> Fullscreen</q-tooltip>
         </q-btn>
-      </div>
-      <div v-if="triggerFullscreen" class="q-mt-md text-center">
-        {{ item.text }}
       </div>
     </q-carousel-slide>
   </q-carousel>
@@ -40,6 +47,20 @@
 <script lang="ts" setup>
 import { computed, defineProps, ref } from "vue";
 import { SlideImageItem } from "@/service/model";
+import { useQuasar } from "quasar";
+
+const _q = useQuasar();
+
+function showInfo(text: string) {
+  _q.dialog({
+    dark: true,
+    title: "info",
+    message: text,
+  })
+    .onOk(() => console.log("opened dialog"))
+    .onCancel(() => console.log("canceled"))
+    .onDismiss(() => console.log("dis"));
+}
 
 const props = defineProps<{
   computedImagePathToDisplay: string;
