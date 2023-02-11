@@ -3,7 +3,7 @@
     <div class="column">
       <div class="row q-ma-lg q-gutter-x-xl justify-center">
         <div class="col-4">
-          <p class="text-h2">Aleppo 1.</p>
+          <p class="text-h2">Aleppo. 2</p>
           <p class="text-body1">
             Aleppo is a city in Syria, which serves as the capital of the Aleppo
             Governorate, the most populous Governorate of Syria. With an
